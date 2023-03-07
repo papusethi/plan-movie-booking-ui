@@ -1,0 +1,30 @@
+/* Global styles for the application */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+
+:root {
+    --font-open-sans: 'Open Sans', sans-serif;
+
+    /* Font Sizes */
+    --font-size-xl: 1.8rem;
+    --font-size-lg: 1.6rem;
+    --font-size-md: 1.3rem;
+    --font-size-sm: 1.2rem;
+
+    /* Colors */
+    --color-bg: #1B1B1B;
+    --color-bg-dark: #000000;
+
+    --color-primary: #EF233C;
+    --color-primary-light: #ED2633;
+
+    --color-grey: #8C8C8C;
+    --color-grey-dark: #706E6B;
+
+    --color-green: #30CC92;
+    --color-blue: #4C8BFF;
+    --color-white: #FFFFFF;
+
+    /* Base Screen Sizes */
+    --base-screen-size: 1366px;
+}
