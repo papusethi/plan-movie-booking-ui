@@ -28,3 +28,7 @@
     /* Base Screen Sizes */
     --base-screen-size: 1366px;
 }
+
+body {
+    background: var(--color-bg-dark);
+}
