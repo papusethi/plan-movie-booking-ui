@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+import './Header.scss';
 import movieTicketLogo from '../assets/svg/movie-ticket-logo.svg';
 import searchIcon from '../assets/svg/search.svg';
 import menuIcon from '../assets/svg/menu.svg';
