@@ -3,7 +3,7 @@ import { IMovieItemData } from '../../interfaces/types';
 import LikeIcon from '../assets/svg/liked.svg';
 import ClockIcon from '../assets/svg/time.svg';
 import { calculateLikesPercentage, convertMinutesToHours } from '../commonUtils';
-import './MovieCard.css';
+import './MovieCard.scss';
 
 export interface MovieCardProps {
     movieItemData: IMovieItemData;

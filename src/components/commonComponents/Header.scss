@@ -11,6 +11,8 @@
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
+
+
 }
 
 /* Header Logo */
@@ -18,12 +20,9 @@
     cursor: pointer;
 }
 
-.search__container {
-    flex: 1 1 auto;
-}
-
 /* Search bar */
 .search__container {
+    flex: 1 1 auto;
     max-width: 50%;
     min-height: 3.2rem;
 
@@ -65,8 +64,8 @@
     justify-content: center;
 
     transition: all 0.5s;
-}
 
-.btn-icon:hover {
-    background: var(--color-primary);
+    &:hover {
+        background: var(--color-primary);
+    }
 }
