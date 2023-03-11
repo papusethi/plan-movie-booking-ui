@@ -1,45 +1,8 @@
-.moviesList__empty {
-    padding: 2rem 0;
-    color: var(--color-white);
-}
-
 .filter-cards__container {
     max-width: var(--base-screen-size);
     margin: 0 auto;
     padding: 2rem 1rem;
 
     display: flex;
-    gap: 2.5rem;
-}
-
-.moviesList__wrapper {
-    display: flex;
-    flex-direction: column;
-}
-
-.moviesList__tabs {
-    height: 2.8rem;
-    margin-bottom: 1.2rem;
-    display: flex;
-    align-items: center;
-    // border-bottom: 1px solid var(--color-grey-dark);
-
-    button {
-        background: none;
-        outline: none;
-        border: none;
-        color: var(--color-white);
-        padding: 0 2rem;
-    }
-
-    .btn-active {
-        color: var(--color-white);
-        background: var(--color-primary);
-        padding: 1rem;
-    }
-}
-
-.moviesList__container {
-    display: flex;
-    flex-wrap: wrap;
+    gap: 2rem;
 }
